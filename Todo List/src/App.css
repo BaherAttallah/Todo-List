@@ -1,0 +1,42 @@
+.App{
+    text-align: center;
+}
+
+.iconButton{
+    transition: all 0.2s !important;
+}
+
+.iconButton:hover{
+    background-color:#c5c5c5 !important;
+    box-shadow:0px 7px 7px rgb(134, 134, 134) ;
+
+}
+.todoCard:hover{
+padding-bottom: 10px ;
+padding-top: 10px ;
+box-shadow:0px 7px 7px rgb(134, 134, 134) ;
+}
+.todoCard{
+    transition: all 0.2s !important;
+}
+/* Custom Fonts */
+@font-face {
+    font-family: Dans;
+    src: url("/public/fonts/DancingScript-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: Dans;
+    src: url("/public/fonts/DancingScript-Medium.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: Dans;
+    src: url("/public/fonts/DancingScript-SemiBold.ttf");
+    font-weight:700;
+}
+@font-face {
+    font-family: Dans;
+    src: url("/public/fonts/DancingScript-Bold.ttf");
+    font-weight: 900;
+}
