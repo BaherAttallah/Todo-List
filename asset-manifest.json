@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Todo-List/static/css/main.3fb71e95.css",
+    "main.js": "/Todo-List/static/js/main.5394066f.js",
+    "static/js/453.e21b5db8.chunk.js": "/Todo-List/static/js/453.e21b5db8.chunk.js",
+    "static/media/DancingScript-Medium.ttf": "/Todo-List/static/media/DancingScript-Medium.3d36d763b3a44158e3e3.ttf",
+    "static/media/DancingScript-SemiBold.ttf": "/Todo-List/static/media/DancingScript-SemiBold.40ebf3c8bad1f6ab11aa.ttf",
+    "static/media/DancingScript-Bold.ttf": "/Todo-List/static/media/DancingScript-Bold.cfb094553fd9c992628a.ttf",
+    "static/media/DancingScript-Regular.ttf": "/Todo-List/static/media/DancingScript-Regular.7e203cef1079837be7e0.ttf",
+    "index.html": "/Todo-List/index.html",
+    "main.3fb71e95.css.map": "/Todo-List/static/css/main.3fb71e95.css.map",
+    "main.5394066f.js.map": "/Todo-List/static/js/main.5394066f.js.map",
+    "453.e21b5db8.chunk.js.map": "/Todo-List/static/js/453.e21b5db8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fb71e95.css",
+    "static/js/main.5394066f.js"
+  ]
+}
