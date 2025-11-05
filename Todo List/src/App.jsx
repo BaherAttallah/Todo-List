@@ -2,8 +2,6 @@ import { ThemeProvider } from '@emotion/react';
 import './App.css';
 import ToDoList from './components/ToDoList';
 import { createTheme} from '@mui/material/styles';
-import { v4 as uuidv4 } from 'uuid';
-import { useState } from 'react';
 import { ToastProvider } from './Contexts/ToastContext';
 import TodosProvider from "./Contexts/TodosContext";
 
@@ -22,27 +20,7 @@ const theme = createTheme({
   }
 })
 
-const initialTodos=[{
-  id : uuidv4(),
-  title : "Studying",
-  details : "english course",
-  isCompleted : false
-}
-,
-{
- id : uuidv4(),
-  title : "Finishing React",
-  details : "making more projects",
-  isCompleted : false
-},
-{
- id : uuidv4(),
-  title : "Cleaning",
-  details : "clean the room",
-  isCompleted : false
-}]
 function App() {
-  const [Todos , setTodos]= useState(initialTodos);
   
 
    

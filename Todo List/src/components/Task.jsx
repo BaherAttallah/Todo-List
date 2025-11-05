@@ -13,7 +13,7 @@ import { useToast } from '../Contexts/ToastContext';
 
 export default function Task({ todo, openDeleteDialog, openEditDialog}) {
   const {showHiddenToast} = useToast(); 
-  const { Todos , dispatch } = useTodos();
+  const { dispatch } = useTodos();
 
   function handleCheckClick() {
     dispatch({type: "statusUpdated", payload :todo })
@@ -48,7 +48,7 @@ export default function Task({ todo, openDeleteDialog, openEditDialog}) {
           <Grid container spacing={2}
             alignItems="space-between" >
 
-            <Grid size={8}>
+            <Grid item xs={8}>
               <Typography
                 variant='h4'
                 textAlign="left"
@@ -63,7 +63,7 @@ export default function Task({ todo, openDeleteDialog, openEditDialog}) {
               </Typography>
             </Grid>
 
-            <Grid size={4}
+            <Grid item xs={4}
               style={{
                 display: "flex",
                 justifyContent: "flex-end",
